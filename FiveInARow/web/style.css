@@ -1,0 +1,63 @@
+
+/* 
+    Created on : Nov 19, 2017, 7:09:44 PM
+    Author     : Rohit
+    This file contains all the required fonts,color and size of html objects to display on index.jsp page
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    background: rgb(181,189,200); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#wrapper {
+    width: 960px;
+    margin: auto;
+    text-align: left;
+    color: #2E4053; 
+}
+
+p {
+    text-align: left;
+}
+
+.button {
+    display: inline;
+    color: #fff;
+    background-color: #f2791d;
+    padding: 10px;
+    margin: auto;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    box-shadow: none;
+    border: none;
+}
+
+
+.button:hover {
+    background-color: #ffb15e;
+}
+
+.button a, a:visited, a:hover, a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+#chessBoard {
+    text-align: center;
+    width: 960px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#content {
+    margin: auto;
+    width: 960px;
+}
+
